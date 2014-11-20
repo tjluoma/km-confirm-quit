@@ -1,6 +1,6 @@
 # km-confirm-quit
 
-Use [Keyboard Maestro][] to confirm <kbd>⌘</kbd> +<kbd>Q</kbd> before quitting (almost) any Mac OS X app.
+Use [Keyboard Maestro][] to confirm ⌘+Q before quitting (almost) any Mac OS X app.
 
 ## Background ##
 
@@ -12,7 +12,7 @@ My friend [Guillermo Esteves](https://twitter.com/gesteves) had [a good idea](ht
 
 I knew this would be simple to do in [Keyboard Maestro][] but even I was surprised how easy it was:
 
-1. Create Keyboard Maestro macro to respond to <kbd>⌘</kbd> +<kbd>Q</kbd>
+1. Create Keyboard Maestro macro to respond to ⌘+Q
 	* If user confirms, tell Keyboard Maestro to quit front-most app.
 	* If user does not confirm, cancel the macro.
 
@@ -20,7 +20,7 @@ I knew this would be simple to do in [Keyboard Maestro][] but even I was surpris
 
 ## There are a few provisos, a couple of *quid pro quos*… ##
 
-*	If you <kbd>⌘</kbd> + <kbd>Tab</kbd> and then press <kbd>⌘</kbd> +<kbd>Q</kbd>, the app in the app switcher _will quit without confirmation_.
+*	If you press ⌘+ Tab and then ⌘+Q, the app in the app switcher _will quit without confirmation_.
 *	The confirmation may not work as expected if the active app does not have a Dock icon. Always be sure to look at the name of the app in the prompt. _(If you find an app that doesn’t work as expected, let me know.)_
 *	If you select the “Quit” menu item using your mouse, you will not be asked for confirmation. (This seemed obvious, but I figured I should mention it anyway.)
 
@@ -38,8 +38,8 @@ I knew this would be simple to do in [Keyboard Maestro][] but even I was surpris
 
 Obviously you could click the button that you want, but it’s probably easiest to use the keyboard shortcuts:
 
-*  Press <kbd>Enter</kbd> to quit the named app
-*  Press <kbd>Esc</kbd> (or <kbd>Space</kbd>)  for No
+*  Press Enterto quit the named app
+*  Press Esc(or Space)  for No
 
 ## Edit the Group (Optional)
 
@@ -59,7 +59,7 @@ This is what the Keyboard Maestro macro looks like, as I have it. `%Application%
 
 ## “But What if Sometimes I _Don’t_ Want to Confirm Quitting Apps?” ##
 
-If you download [Confirm-Quit-and-Bypass-Quit.kmmacros.zip](Confirm-Quit-and-Bypass-Quit.kmmacros.zip) _instead_ of the .zip above, it will install _two_ macros. One will confirm <kbd>⌘</kbd> + <kbd>Q</kbd> as above, but a _second_ macro will quit the front-most application if you press cmd+shift+Q: <kbd>⌘</kbd><kbd>⇧</kbd> <kbd>Q</kbd> .
+If you download [Confirm-Quit-and-Bypass-Quit.kmmacros.zip](Confirm-Quit-and-Bypass-Quit.kmmacros.zip) _instead_ of the .zip above, it will install _two_ macros. One will confirm ⌘+Q as above, but a _second_ macro will quit the front-most application if you press  ⌘+⇧+Q.
 
 ![Bypass confirmation with Shift key](img/quit-with-confirm-with-shift.png)
 
