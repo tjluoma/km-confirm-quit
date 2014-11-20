@@ -59,7 +59,7 @@ This is what the Keyboard Maestro macro looks like, as I have it. `%Application%
 
 ## “But What if Sometimes I _Don’t_ Want to Confirm Quitting Apps?” ##
 
-If you download [Confirm-Quit-and-Bypass-Quit.kmmacros.zip](Confirm-Quit-and-Bypass-Quit.kmmacros.zip) _instead_ of the .zip above, it will install _two_ macros. One will confirm <kbd>⌘</kbd> + <kbd>Q</kbd> as above, but a _second_ macro will quit the front-most application if you press <kbd>⌘</kbd><kbd>⇧</kbd> <kbd>Q</kbd> .
+If you download [Confirm-Quit-and-Bypass-Quit.kmmacros.zip](Confirm-Quit-and-Bypass-Quit.kmmacros.zip) _instead_ of the .zip above, it will install _two_ macros. One will confirm <kbd>⌘</kbd> + <kbd>Q</kbd> as above, but a _second_ macro will quit the front-most application if you press cmd+shift+Q: <kbd>⌘</kbd><kbd>⇧</kbd> <kbd>Q</kbd> .
 
 ![Bypass confirmation with Shift key](img/quit-with-confirm-with-shift.png)
 
