@@ -1,6 +1,6 @@
 # km-confirm-quit
 
-Use [Keyboard Maestro][] to confirm ⌘+Q before quitting (almost) any Mac OS X app.
+Use [Keyboard Maestro][] to confirm <kbd>⌘</kbd> +<kbd>Q</kbd> before quitting (almost) any Mac OS X app.
 
 ## Background ##
 
@@ -12,7 +12,7 @@ My friend [Guillermo Esteves](https://twitter.com/gesteves) had [a good idea](ht
 
 I knew this would be simple to do in [Keyboard Maestro][] but even I was surprised how easy it was:
 
-1. Create Keyboard Maestro macro to respond to ⌘+Q
+1. Create Keyboard Maestro macro to respond to <kbd>⌘</kbd> +<kbd>Q</kbd>
 	* If user confirms, tell Keyboard Maestro to quit front-most app.
 	* If user does not confirm, cancel the macro.
 
