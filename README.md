@@ -8,6 +8,8 @@ My friend [Guillermo Esteves](https://twitter.com/gesteves) had [a good idea](ht
 
 <blockquote class="twitter-tweet" lang="en"><p>Chrome’s “warn before quitting” setting should really be a system-wide OS X setting. <a href="http://t.co/e9sTiEOSBq">pic.twitter.com/e9sTiEOSBq</a></p>&mdash; Guillermo Esteves (@gesteves) <a href="https://twitter.com/gesteves/status/532187436596867073">November 11, 2014</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+![Google Chrome screenshot](img/twitter.png)
+
 I knew this would be simple to do in [Keyboard Maestro][] but even I was surprised how easy it was:
 
 1. Create Keyboard Maestro macro to respond to ⌘+Q
